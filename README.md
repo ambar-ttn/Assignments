@@ -1,5 +1,6 @@
 1.for Simple Calculaor I took the principal, rate, and time from the user using JavaScript prompts.
 Then I calculated the simple interest using the standard formula and displayed the result on the webpage using HTML.
+
 ![Screenshot 1](https://github.com/ambar-ttn/Assignments/blob/assignment-1/Screenshot%20from%202026-02-02%2016-24-07.png) , 
 ![Screenshot 2](https://github.com/ambar-ttn/Assignments/blob/assignment-1/Screenshot%20from%202026-02-02%2016-24-16.png)
 ![Screenshot 3](https://github.com/ambar-ttn/Assignments/blob/assignment-1/Screenshot%20from%202026-02-02%2016-24-27.png)
@@ -16,6 +17,11 @@ If all corresponding characters matched, the string was identified as a palindro
 
 3.Area of Circle I took the radius of the circle as input using a prompt.
 Using the formula π × r × r, I calculated and displayed the area on the webpage.
+
+![Screenshot 10](https://github.com/ambar-ttn/Assignments/blob/assignment-1/Screenshot%20from%202026-02-02%2016-34-25.png)
+
+![Screenshot 11](https://github.com/ambar-ttn/Assignments/blob/assignment-1/Screenshot%20from%202026-02-02%2016-34-36.png)
+
 
 
 
