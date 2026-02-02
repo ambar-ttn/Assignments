@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="wrapper" style="height: 100vh; width: 100vw; background-color: rgb(2, 59, 40);display: flex;flex-direction: column; justify-content: center; align-items: center;">
+            <h1 style="color: azure;">Palindrome Checker :</h1>
+            <p id="res" style="color: azure;"></p>
+
+        </div>
+
+        <script>
+            x=prompt('Enter the string you want to check for palindrome:');
+            var y = true;
+            var i = 0 ; 
+            var j = x.length-1;
+            while(i<j){
+                if(x[i]!=x[j]){
+                    y=false;
+                    break;
+                }
+                else{
+                    i++;
+                    j--;
+                }
+            }
+            if(y) document.getElementById('res').textContent='The entered string is a palindrome';
+            else document.getElementById('res').textContent='The entered string is not a palindrome';
+           
+        </script>
+</body>
+</html>

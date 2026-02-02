@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Operations</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b3d2e;
+            color: white;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #1abc9c;
+            color: black;
+        }
+
+        button:hover {
+            background-color: #16a085;
+        }
+
+        .output {
+            margin-top: 20px;
+            width: 70%;
+            background-color: #04251c;
+            border-radius: 8px;
+        }
+
+        .employee {
+            border-bottom: 1px solid #1abc9c;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Employee Operations</h1>
+
+    <button onclick="showHighSalary()">Salary &gt; 5000</button>
+    <button onclick="groupByAge()">Group By Age</button>
+    <button onclick="incrementSalary()">Increment Salary</button>
+
+    <div id="output" class="output"></div>
+</div>
+
+<script>
+    let employees = [
+        { name: "Ambar", age: 21, salary: 6000, dob: "2003-05-12" },
+        { name: "Naman", age: 21, salary: 4500, dob: "2004-01-20" },
+        { name: "Krishna", age: 23, salary: 800, dob: "2002-11-10" },
+        { name: "Aditya", age: 24, salary: 120, dob: "2001-08-05" },
+        { name: "Ashmit", age: 20, salary: 900, dob: "2005-03-18" },
+        { name: "Harman", age: 26, salary: 3000, dob: "1999-07-22" },
+        { name: "Sunny", age: 19, salary: 700, dob: "2006-02-14" },
+        { name: "Akash", age: 25, salary: 5500, dob: "2000-12-01" },
+        { name: "Rohit", age: 28, salary: 950, dob: "1997-09-09" }
+    ];
+
+    const output = document.getElementById("output");
+
+    function showHighSalary() {
+        output.innerHTML = "<h3>Employees with Salary &gt; 5000</h3>";
+        let result = employees.filter(e => e.salary > 5000);
+
+        result.forEach(e => {
+            output.innerHTML += `<div class="employee">${e.name} | Age: ${e.age} | Salary: ${e.salary}</div>`;
+        });
+    }
+
+    function groupByAge() {
+        output.innerHTML = "<h3>Employees Grouped By Age</h3>";
+        let grouped = employees.reduce((group, emp) => {
+            if (!group[emp.age]) group[emp.age] = [];// made ana empty array if same age do not exists till now 
+            group[emp.age].push(emp);
+            return group;
+        }, {});
+
+        for (let age in grouped) {
+            output.innerHTML += `<strong>Age ${age}</strong>`;
+            grouped[age].forEach(e => {
+                output.innerHTML += `<div class="employee">${e.name} | Salary: ${e.salary}</div>`;
+            });
+        }
+    }
+
+    function incrementSalary() {
+        output.innerHTML = "<h3>Updated Salaries (Increment Applied)</h3>";
+
+        for (let i = 0; i < employees.length; i++) {
+            if (employees[i].salary < 1000 && employees[i].age > 20) {
+                employees[i].salary =
+                    employees[i].salary + (employees[i].salary * 5);
+            }
+        }
+
+        employees.forEach(e => {
+            output.innerHTML += `<div class="employee">${e.name} | Age: ${e.age} | Salary: ${e.salary}</div>`;
+        });
+    }
+</script>
+</body>
+</html>

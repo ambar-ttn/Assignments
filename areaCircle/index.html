@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Circle</title>
+</head>
+<body>
+    <div class="wrapper" style="height: 100vh; width: 100vw; background-color: rgb(2, 40, 59); display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1 style="color: azure;">Area of Circle</h1>
+        <p id="res" style="color: azure;"></p>
+    </div>
+
+    <script>
+        let r = Number(prompt("Enter the radius of the circle:"));
+        let area = 3.14 * r * r;
+
+        document.getElementById("res").textContent =
+            "The area of the circle is: " + area;
+    </script>
+</body>
+</html>
