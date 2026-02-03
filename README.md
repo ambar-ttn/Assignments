@@ -1,7 +1,6 @@
-1. This implements a calculator using a JavaScript object.
+1.This implements a calculator using a JavaScript object.
 It has methods to read two numbers from the user and perform addition, subtraction, and multiplication.
 Each operation is triggered using buttons and displays the result using alerts.
-
 
 
 2.This project uses a JavaScript object to convert temperature from Celsius to Fahrenheit and Kelvin.
