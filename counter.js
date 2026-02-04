@@ -6,5 +6,5 @@ function createCounter(){
     }
 }
 let counter = createCounter();
-counter();
-counter();
+counter(); //1
+counter();// 2
