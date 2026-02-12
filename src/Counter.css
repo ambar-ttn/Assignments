@@ -1,0 +1,14 @@
+.Counter{
+  background-color: darkslategrey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background-color: aquamarine;
+  height: 40px;
+  width: 100px;
+  border: 2px solid black;
+}
