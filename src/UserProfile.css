@@ -1,0 +1,21 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f5;
+}
+
+.innerDiv {
+  background-color: cadetblue;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.profile {
+  margin-top: 10px;
+  background-color: #4481de;
+  padding: 10px;
+  border-radius: 4px;
+}
