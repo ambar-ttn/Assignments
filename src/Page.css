@@ -1,0 +1,15 @@
+.page {
+  height: 100vh;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.page.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.page.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
