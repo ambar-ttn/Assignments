@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "node1assignment",
+  "version": "1.0.0",
+  "main": "asyncRead.js",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
