@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Ambar Goyal",
+    "branch": "CSE",
+    "age": 21
+  },
+  {
+    "id": 2,
+    "name": "Rahul Sharma",
+    "branch": "ECE",
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "Rohit Verma",
+    "branch": "ME",
+    "age": 23
+  },
+  {
+    "id": 4,
+    "name": "Ankit Agarwal",
+    "branch": "CSE",
+    "age": 20
+  },
+  {
+    "id": 5,
+    "name": "Sneha Kapoor",
+    "branch": "IT",
+    "age": 21
+  },
+  {
+    "id": 6,
+    "name": "Neha Singh",
+    "branch": "ECE",
+    "age": 22
+  },
+  {
+    "id": 7,
+    "name": "Arjun Mehta",
+    "branch": "CSE",
+    "age": 21
+  },
+  {
+    "id": 8,
+    "name": "Vikas Yadav",
+    "branch": "ME",
+    "age": 24
+  },
+  {
+    "id": 9,
+    "name": "Pooja Bansal",
+    "branch": "IT",
+    "age": 20
+  },
+  {
+    "id": 10,
+    "name": "Karan Malhotra",
+    "branch": "ECE",
+    "age": 23
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "ambar",
+    "password": "12345",
+    "firstName": "Ambar",
+    "lastName": "Goyal"
+  },
+  {
+    "id": 2,
+    "username": "rahul",
+    "password": "12345",
+    "firstName": "Rahul",
+    "lastName": "Sharma"
+  },
+  {
+    "id": 3,
+    "username": "rohit",
+    "password": "12345",
+    "firstName": "Rohit",
+    "lastName": "Verma"
+  },
+  {
+    "id": 4,
+    "username": "ramesh",
+    "password": "12345",
+    "firstName": "Ramesh",
+    "lastName": "Gupta"
+  },
+  {
+    "id": 5,
+    "username": "ankit",
+    "password": "12345",
+    "firstName": "Ankit",
+    "lastName": "Agarwal"
+  },
+  {
+    "id": 6,
+    "username": "sneha",
+    "password": "12345",
+    "firstName": "Sneha",
+    "lastName": "Kapoor"
+  },
+  {
+    "id": 7,
+    "username": "neha",
+    "password": "12345",
+    "firstName": "Neha",
+    "lastName": "Singh"
+  },
+  {
+    "id": 8,
+    "username": "arjun",
+    "password": "12345",
+    "firstName": "Arjun",
+    "lastName": "Mehta"
+  },
+  {
+    "id": 9,
+    "username": "vikas",
+    "password": "12345",
+    "firstName": "Vikas",
+    "lastName": "Yadav"
+  },
+  {
+    "id": 10,
+    "username": "pooja",
+    "password": "12345",
+    "firstName": "Pooja",
+    "lastName": "Bansal"
+  }
+]
